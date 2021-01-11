@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+  }
+  .main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav .name {
+    display: block;
+      margin-right: auto;
+      color: white;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white
+  }
+  .main-img{
+    border: solid 4px #70d3c8;
+    border-radius: 50%;
+  }
+  
+  h1{
+    background-color: #e2e2e2;
+    padding:5px;
+  }
+  
+  .section-title{
+    text-transform: uppercase;
+  }
+  
+  header {
+    text-align: center;
+    background: url('images/back.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+    margin:0px;
+    line-height: 1;
+  }
+  
+  .tag {
+    background-color: #ffffffa3;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+  } 
+  header .profile-image {
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    border: 3px solid white;
+    transition: all .6s;
+    transform: rotate(45deg);
+  }
+  .input-one{
+    width: 80%;
+    height: 3rem;
+    font-size: large;
+}
+
+  .input-two{
+    width: 80%;
+    padding: 1rem;
+    margin-top: 1rem;
+    height: 9rem;
+    font-size: large;
+}
+.card-con{
+    width: 80%;
+    margin: 10px;
+  padding: 20px 40px 40px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+    
+}footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+    text-align: center;
+  }
+  
+  footer .copyright {
+    top: -8px;
+    margin-right: 20px;
+    font-size: .75em;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .5;
+    transition: all .25s;
+  }
+  a.twitter {
+    background-image: url(images/twitter.svg);
+  }
+  a.linkedin {
+    background-image: url(images/linkedin.svg);
+  }
+  a.github {
+    background-image: url(images/github.svg);
+  }
+  a.social:hover {
+    opacity: 1;
+  }
+  .clearfix {
+    clear: both;
+  }
